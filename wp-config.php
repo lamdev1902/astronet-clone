@@ -1,4 +1,6 @@
 <?php
+define('ALLOW_UNFILTERED_UPLOADS', true);
+
 /**
  * The base configuration for WordPress
  *
@@ -100,3 +102,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+
+define('FTP_USER', 'username');define('FTP_PASS', 'password');define('FTP_HOST', 'host');
